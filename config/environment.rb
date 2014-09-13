@@ -22,7 +22,6 @@ require 'erb'
 
 require 'twilio-ruby'
 
-# ///Version 2///
 if development?
 	require "pry" 
 	require "pry-nav" 
@@ -51,3 +50,8 @@ Dir[APP_ROOT.join('app', 'helpers', '*.rb')].each { |file| require file }
 
 # Set up the database and models
 require APP_ROOT.join('config', 'database')
+
+
+# Twilio Credentials
+TWILIO_SID = 'ACabbf6d8e27b3bf2eb934e9a39a97c17e'
+TWILIO_AUTH_TOKEN = '446e48f85b9f155f6a84bb17c10e95dc'
