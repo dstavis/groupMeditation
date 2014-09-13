@@ -20,6 +20,8 @@ require "sinatra/reloader" if development?
 
 require 'erb'
 
+require 'twilio-ruby'
+
 # ///Version 2///
 if development?
 	require "pry" 
