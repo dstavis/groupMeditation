@@ -20,6 +20,9 @@ gem 'shotgun'
 
 gem 'twilio-ruby'
 
+# For handling times of day https://github.com/JackC/tod
+# gem 'tod'
+
 group :test do
   gem 'shoulda-matchers'
   gem 'rack-test'
